@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.cont{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(index_01.png);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+
+    display: flex;
+}
+
+.wrap{
+    width: 1100px;
+    height: 100vh;
+    position: relative;
+}
+.box0{
+    width: 1100px; 
+}
+.box3{height: 120px;margin-top: 875px;display: flex;justify-content: space-between;}
+
+    /*--네비게이션 시작--*/
+    nav{
+        width: 1150px;
+        height: 0px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    ul{
+        
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        
+}
+    
+    
+    li{}
+    .bt00{padding-right: 249px;}
+    .bt01{}
+    .bt02{}
+    .bt03{}
+    
+    .bt00:hover{filter: invert(1);}
+    .bt01:hover{filter: invert(1);}
+    .bt02:hover{filter: invert(1);}
+    .bt03:hover{filter: invert(1);}
+    
+/*--서브01 CSS 시작--*/
+.s01_b00{
+    width: 100%;
+    
+}
+.s01_b01{
+    height: 800px;
+    background-image: url(index_02.png);background-size: cover;
+}
+.s01_b01_txt{
+    width: 458px;
+    height: 251px;
+    margin: 0 auto;
+    padding-top: 181px;
+}
+/*--서브02 CSS 시작--*/
+.s02_b00{
+    width: 100%;
+    
+}
+.s02_b01{
+    height: 800px;
+    background-image: url(index_06.png);background-size: cover;
+}
+.s02_b01_txt{
+    width: 458px;
+    height: 251px;
+    margin: 0 auto;
+    padding-top: 181px;
+}
+/*--서브03 CSS 시작--*/
+.s03_b00{
+    width: 100%;
+    
+}
+.s03_b01{
+    height: 800px;
+    background-image: url('index_10.png');background-size: cover;
+}
+.s03_b01_txt{
+    width: 804px;
+    height: 225px;
+    margin: 0 auto;
+    padding-top: 181px;
+}
